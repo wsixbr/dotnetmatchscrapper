@@ -1,0 +1,40 @@
+name: Scheduled Match Scraper
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  scrape-and-alert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: Install Playwright browsers
+      run: dotnet tool install --global Microsoft.Playwright.CLI && playwright install chromium
+
+    - name: Install Chrome
+      run: |
+        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+        sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+        apt-get update
+        apt-get install -y google-chrome-stable
+
+    - name: Build and run scraper
+      env:
+        TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+        TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+        RECIPIENT_WHATSAPP: ${{ secrets.RECIPIENT_WHATSAPP }}
+        TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
+      run: |
+        dotnet build -c Release
+        timeout 600 dotnet run --project OdiBet365.csproj || echo "App completed or timed out"

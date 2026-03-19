@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Self-contained deployment to include all dependencies -->
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.57.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.39.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="144.0.7559.3100" />
+    <PackageReference Include="WebDriverManager" Version="2.17.6" />
+    <PackageReference Include="Twilio" Version="7.14.3" />
+  </ItemGroup>
+
+</Project>

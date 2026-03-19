@@ -1,0 +1,38 @@
+# Binaries and build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.exe.config
+*.runtimeconfig.json
+
+# Playwright browsers and cache
+.playwright/
+**/node_modules/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp

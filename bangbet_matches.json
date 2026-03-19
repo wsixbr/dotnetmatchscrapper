@@ -1,0 +1,1082 @@
+[
+  {
+    "Time": "03:30",
+    "HomeTeam": "Arnett Gardens FC",
+    "AwayTeam": "Racing United FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "04:15",
+    "HomeTeam": "Instituto AC Cordoba",
+    "AwayTeam": "CA Independiente Avellaneda",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "04:20",
+    "HomeTeam": "Deportes Quindio",
+    "AwayTeam": "Real Cundinamarca",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "04:30",
+    "HomeTeam": "Umecit",
+    "AwayTeam": "Cocle FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "05:30",
+    "HomeTeam": "Gimcheon Sangmu (Srl)",
+    "AwayTeam": "Gwangju FC SRL",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "06:05",
+    "HomeTeam": "Ensenada FC",
+    "AwayTeam": "Reboceros de La Piedad",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "11:00",
+    "HomeTeam": "Sydney FC",
+    "AwayTeam": "Melbourne City FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "11:00",
+    "HomeTeam": "Fenerbahce SRL",
+    "AwayTeam": "Gaziantep SRL",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "12:00",
+    "HomeTeam": "Amed Sportif Faaliyetler",
+    "AwayTeam": "Besiktas",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "13:00",
+    "HomeTeam": "China PR",
+    "AwayTeam": "Australia",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "13:00",
+    "HomeTeam": "FC Chernigiv",
+    "AwayTeam": "FSK Mariupol",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "13:00",
+    "HomeTeam": "Trabzonspor AS",
+    "AwayTeam": "Fenerbahce Istanbul",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "13:30",
+    "HomeTeam": "Gimcheon Sangmu FC",
+    "AwayTeam": "Gwangju FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "13:30",
+    "HomeTeam": "Rajasthan United",
+    "AwayTeam": "Real Kashmir",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "13:30",
+    "HomeTeam": "Grange Thistle",
+    "AwayTeam": "Southside Eagles",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "14:00",
+    "HomeTeam": "Torreense",
+    "AwayTeam": "Santa Clara",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "14:45",
+    "HomeTeam": "Sporting CP SRL",
+    "AwayTeam": "Bodoe/Glimt SRL",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "15:00",
+    "HomeTeam": "FK Kaspii Aktau",
+    "AwayTeam": "FC Okzhetpes",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "15:30",
+    "HomeTeam": "Albion FC",
+    "AwayTeam": "Liverpool Montevideo",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "15:30",
+    "HomeTeam": "Albirex Niigata (S) Reserve",
+    "AwayTeam": "Geylang International Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "15:30",
+    "HomeTeam": "Hougang United FC Reserve",
+    "AwayTeam": "Young Lions Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "15:30",
+    "HomeTeam": "Lion City Sailors FC Reserve",
+    "AwayTeam": "Balestier Khalsa Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "15:30",
+    "HomeTeam": "BG Tampines Rovers Reserve",
+    "AwayTeam": "Tanjong Pagar United FC Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "16:00",
+    "HomeTeam": "Bristol City",
+    "AwayTeam": "Crewe Alexandra Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "16:00",
+    "HomeTeam": "Gazelle FA de Garoua",
+    "AwayTeam": "Aigle Royal",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "16:00",
+    "HomeTeam": "Atletico Madrid",
+    "AwayTeam": "Club Brugge",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "16:30",
+    "HomeTeam": "Millwall",
+    "AwayTeam": "Peterborough United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "16:30",
+    "HomeTeam": "Charlton Athletic",
+    "AwayTeam": "Huddersfield Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "16:30",
+    "HomeTeam": "Queens Park Rangers",
+    "AwayTeam": "Sheffield United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "17:00",
+    "HomeTeam": "Olympique Akbou",
+    "AwayTeam": "CS Constantine",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "17:00",
+    "HomeTeam": "ES Mostaganem",
+    "AwayTeam": "Paradou AC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "17:00",
+    "HomeTeam": "Chelsea FC SRL",
+    "AwayTeam": "Paris Saint-Germain SRL",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "17:00",
+    "HomeTeam": "Manchester City SRL",
+    "AwayTeam": "Real Madrid SRL",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "17:00",
+    "HomeTeam": "Arsenal FC SRL",
+    "AwayTeam": "Bayer 04 Leverkusen SRL",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:00",
+    "HomeTeam": "Puebla",
+    "AwayTeam": "Necaxa",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:00",
+    "HomeTeam": "Sporting Braga",
+    "AwayTeam": "Leixoes SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:00",
+    "HomeTeam": "Cardiff City",
+    "AwayTeam": "Fleetwood Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:00",
+    "HomeTeam": "Coton Sport de Garoua",
+    "AwayTeam": "Dynamo de Douala",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:00",
+    "HomeTeam": "Villarreal CF",
+    "AwayTeam": "Paris Saint-Germain FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:30",
+    "HomeTeam": "FK Radnik Bijeljina",
+    "AwayTeam": "FK Laktasi",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "18:30",
+    "HomeTeam": "DC Power FC",
+    "AwayTeam": "Carolina Ascent",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "19:00",
+    "HomeTeam": "FC Lokomotiv 1929 Sofia",
+    "AwayTeam": "FK Septemvri Sofia",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "19:30",
+    "HomeTeam": "FK Krasnodar",
+    "AwayTeam": "CSKA Moscow",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "19:30",
+    "HomeTeam": "Guediawaye FC",
+    "AwayTeam": "Generation Foot",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "20:00",
+    "HomeTeam": "Fenerbahce Istanbul",
+    "AwayTeam": "Gaziantep FK",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "20:00",
+    "HomeTeam": "1. FC Tatran Presov",
+    "AwayTeam": "FK Kosice",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "20:30",
+    "HomeTeam": "Mamelodi Sundowns",
+    "AwayTeam": "Marumo Gallants FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "20:30",
+    "HomeTeam": "Al Wahda FC (UAE)",
+    "AwayTeam": "Al Ain FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "20:30",
+    "HomeTeam": "Ittihad Kalba FC",
+    "AwayTeam": "Sharjah FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "20:45",
+    "HomeTeam": "Sporting CP",
+    "AwayTeam": "Bodoe/Glimt",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Jagiellonia Bialystok",
+    "AwayTeam": "GKS Katowice",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Palermo FC",
+    "AwayTeam": "Juve Stabia",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "FC St. Gallen 1879",
+    "AwayTeam": "FC Lugano",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Bahla Club",
+    "AwayTeam": "Al-Seeb",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Sohar",
+    "AwayTeam": "Ibri",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Samail SC",
+    "AwayTeam": "Dhofar SCSC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "SV Donau",
+    "AwayTeam": "SR Donaufeld",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "CA Sarmiento de Junin",
+    "AwayTeam": "Gimnasia de la Plata Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Argentinos Juniors Reserve",
+    "AwayTeam": "CA Aldosivi Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "CA Quilmes Reserve",
+    "AwayTeam": "At Rafaela Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Thor Akureyri",
+    "AwayTeam": "Fylkir Reykjavik",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Al Kahrabaa SC",
+    "AwayTeam": "AL Naft",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "AL Najaf",
+    "AwayTeam": "AL Mosul SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:00",
+    "HomeTeam": "Al Quwa Al Jawiya",
+    "AwayTeam": "Amanat Baghdad SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:30",
+    "HomeTeam": "Stade Briochin",
+    "AwayTeam": "LB Chateauroux",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:30",
+    "HomeTeam": "Al Arabi Doha SC",
+    "AwayTeam": "Al Sadd SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:30",
+    "HomeTeam": "Al Rayyan SC",
+    "AwayTeam": "AL Wakrah SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:30",
+    "HomeTeam": "Al-Shamal",
+    "AwayTeam": "Al Duhail SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "21:30",
+    "HomeTeam": "SV Horn",
+    "AwayTeam": "FC Marchfeld Donauauen",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Reggiana 1919",
+    "AwayTeam": "AC Monza",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "US Catanzaro",
+    "AwayTeam": "Modena FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Spezia Calcio",
+    "AwayTeam": "Empoli FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Venezia FC",
+    "AwayTeam": "Calcio Padova",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "ADO Den Haag",
+    "AwayTeam": "Jong FC Utrecht",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Mantova 1911",
+    "AwayTeam": "Cesena FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Almere City FC",
+    "AwayTeam": "RKC Waalwijk",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "FC Dordrecht",
+    "AwayTeam": "TOP Oss",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "VVV Venlo",
+    "AwayTeam": "Jong Ajax Amsterdam",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Brentford",
+    "AwayTeam": "Coventry City",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Colchester United",
+    "AwayTeam": "Hull City",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "CD Tenerife",
+    "AwayTeam": "Atletico Madrid",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "CA Belgrano",
+    "AwayTeam": "Defensa Y Justicia Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Instituto AC Cordoba Reserves",
+    "AwayTeam": "CA Banfield",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "AL Salt",
+    "AwayTeam": "Ramtha SC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:00",
+    "HomeTeam": "Rosario Central Reserve",
+    "AwayTeam": "CA Talleres de Cordoba Reserve",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Newport County",
+    "AwayTeam": "Bromley FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Wimborne Town",
+    "AwayTeam": "Walton and Hersham FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Petrojet FC",
+    "AwayTeam": "Pyramids FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Torque",
+    "AwayTeam": "Club Oriental de Football",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Central Espanol Reserve",
+    "AwayTeam": "Juventud de Las Piedras",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Trefelin BGC",
+    "AwayTeam": "Cambrian United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:30",
+    "HomeTeam": "Treowen Stars",
+    "AwayTeam": "Baglan Dragons",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Watford FC",
+    "AwayTeam": "Wrexham AFC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Stockport County FC",
+    "AwayTeam": "Northampton Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Peterborough United",
+    "AwayTeam": "Rotherham United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Tranmere Rovers FC",
+    "AwayTeam": "Harrogate Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Burton Albion",
+    "AwayTeam": "Reading FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Plymouth Argyle",
+    "AwayTeam": "Stevenage FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Grimsby Town",
+    "AwayTeam": "Fleetwood Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Accrington Stanley",
+    "AwayTeam": "Notts County",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Cheltenham Town",
+    "AwayTeam": "Crewe Alexandra",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Gillingham FC",
+    "AwayTeam": "Swindon Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Bradford City FC",
+    "AwayTeam": "Mansfield Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "AFC Wimbledon",
+    "AwayTeam": "Leyton Orient London",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Walsall FC",
+    "AwayTeam": "Cambridge United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Bolton Wanderers",
+    "AwayTeam": "Doncaster Rovers",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Luton Town",
+    "AwayTeam": "Exeter City",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Salford City",
+    "AwayTeam": "Barrow AFC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Huddersfield Town",
+    "AwayTeam": "Lincoln City",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Blackpool FC",
+    "AwayTeam": "Port Vale",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Crawley Town",
+    "AwayTeam": "Barnet FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Bristol Rovers",
+    "AwayTeam": "Shrewsbury Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Cardiff City",
+    "AwayTeam": "Wycombe Wanderers",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Chesterfield FC",
+    "AwayTeam": "Oldham Athletic",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Spartans FC",
+    "AwayTeam": "Forfar Athletic FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Woking FC",
+    "AwayTeam": "Yeovil Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Southend United",
+    "AwayTeam": "Rochdale AFC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Brackley Town FC",
+    "AwayTeam": "Solihull Moors FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Gateshead FC",
+    "AwayTeam": "Wealdstone FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Truro City",
+    "AwayTeam": "Scunthorpe United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Inverness Caledonian Thistle FC",
+    "AwayTeam": "Peterhead FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Hereford FC",
+    "AwayTeam": "AFC Fylde",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "King\u0027s Lynn Town",
+    "AwayTeam": "South Shields",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Leamington FC",
+    "AwayTeam": "Buxton FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Peterborough Sports",
+    "AwayTeam": "Marine FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Spennymoor Town FC",
+    "AwayTeam": "Curzon Ashton FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Southport FC",
+    "AwayTeam": "Alfreton Town FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "AFC Telford United",
+    "AwayTeam": "Macclesfield FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Darlington FC",
+    "AwayTeam": "Radcliffe FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Chorley FC",
+    "AwayTeam": "Kidderminster Harriers FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Horsham FC",
+    "AwayTeam": "Bath City FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Farnborough FC",
+    "AwayTeam": "Dagenham and Redbridge FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Weston-super-Mare",
+    "AwayTeam": "Tonbridge Angels",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Enfield Town",
+    "AwayTeam": "Dorking Wanderers",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Maidenhead United FC",
+    "AwayTeam": "Ebbsfleet United FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Whitehawk FC",
+    "AwayTeam": "Cheshunt FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Prescot Cables",
+    "AwayTeam": "Cleethorpes Town FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Chesham United",
+    "AwayTeam": "AFC Totton",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Gainsborough Trinity",
+    "AwayTeam": "Hyde United FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Canvey Island",
+    "AwayTeam": "Chatham Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Real Bedford",
+    "AwayTeam": "Worcester City",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Halesowen Town FC",
+    "AwayTeam": "Banbury United",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Whitby Town",
+    "AwayTeam": "Ashton United FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Kettering Town",
+    "AwayTeam": "AFC Sudbury",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Farnham Town",
+    "AwayTeam": "Dorchester Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Tiverton Town",
+    "AwayTeam": "Basingstoke Town FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Alvechurch",
+    "AwayTeam": "Stamford AFC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Bromsgrove Sporting",
+    "AwayTeam": "Harborough Town FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Plymouth Parkway",
+    "AwayTeam": "Chertsey Town FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Brickfield Rangers",
+    "AwayTeam": "CPD Y Rhyl 1879",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "22:45",
+    "HomeTeam": "Cwmbran Celtic",
+    "AwayTeam": "Pontypridd Town",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:00",
+    "HomeTeam": "Barnsley FC",
+    "AwayTeam": "Wigan Athletic",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:00",
+    "HomeTeam": "Arsenal FC",
+    "AwayTeam": "Bayer Leverkusen",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:00",
+    "HomeTeam": "Chelsea FC",
+    "AwayTeam": "Paris Saint-Germain",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:00",
+    "HomeTeam": "Manchester City",
+    "AwayTeam": "Real Madrid",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:00",
+    "HomeTeam": "KH Hlidarendi",
+    "AwayTeam": "Hviti Riddarinn",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:00",
+    "HomeTeam": "Fortaleza Ceif FC",
+    "AwayTeam": "Asociacion Deportivo Cali",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:15",
+    "HomeTeam": "Al-Gharraf SC",
+    "AwayTeam": "Al Zawraa",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:15",
+    "HomeTeam": "Al Shorta SC",
+    "AwayTeam": "AL Talaba",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "23:30",
+    "HomeTeam": "CA Bucaramanga Sa",
+    "AwayTeam": "Asociacion Deportivo Pasto",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:00",
+    "HomeTeam": "Tacuarembo FC",
+    "AwayTeam": "La Luz FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:00",
+    "HomeTeam": "MC Alger",
+    "AwayTeam": "USM Khenchela",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:00",
+    "HomeTeam": "MC Oran",
+    "AwayTeam": "El Bayadh",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:10",
+    "HomeTeam": "Llaneros FC",
+    "AwayTeam": "Cucuta Deportivo FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:30",
+    "HomeTeam": "Sportivo San Lorenzo",
+    "AwayTeam": "CS 2 de Mayo",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:30",
+    "HomeTeam": "CD Universidad Catolica del Ecuador",
+    "AwayTeam": "CD Cuenca",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "00:30",
+    "HomeTeam": "Academia Anzoategui FC",
+    "AwayTeam": "Deportivo La Guaira",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "01:00",
+    "HomeTeam": "CA Lanus",
+    "AwayTeam": "Newell\u0027s Old Boys",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "01:00",
+    "HomeTeam": "Nova Iguacu RJ",
+    "AwayTeam": "Fortaleza EC CE",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "01:30",
+    "HomeTeam": "Sao Bernardo FC",
+    "AwayTeam": "Ceara SC CE",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "01:30",
+    "HomeTeam": "Academia Puerto Cabello",
+    "AwayTeam": "UCV FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "01:30",
+    "HomeTeam": "Millonarios FC",
+    "AwayTeam": "Once Caldas Sa",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:00",
+    "HomeTeam": "Pittsburgh Riverhounds",
+    "AwayTeam": "Steel City FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:00",
+    "HomeTeam": "Rhode Island FC",
+    "AwayTeam": "CD Faialense",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:00",
+    "HomeTeam": "Vermont Green FC",
+    "AwayTeam": "Portland Hearts of Pine",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:20",
+    "HomeTeam": "CA Bucaramanga",
+    "AwayTeam": "CD Once Caldas",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:30",
+    "HomeTeam": "Club Olimpia",
+    "AwayTeam": "Sportivo Luqueno",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:30",
+    "HomeTeam": "Caracas FC",
+    "AwayTeam": "Trujillanos FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:30",
+    "HomeTeam": "West Chester United",
+    "AwayTeam": "Loudoun United FC",
+    "Status": "Scheduled"
+  },
+  {
+    "Time": "02:30",
+    "HomeTeam": "Detroit City FC",
+    "AwayTeam": "Michigan Rangers FC",
+    "Status": "Scheduled"
+  }
+]

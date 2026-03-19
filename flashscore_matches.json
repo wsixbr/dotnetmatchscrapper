@@ -1,0 +1,1226 @@
+[
+  {
+    "HomeTeam": "China W",
+    "AwayTeam": "Australia W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Sporting CP",
+    "AwayTeam": "Bodo/Glimt",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "20:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Arsenal",
+    "AwayTeam": "Bayer Leverkusen",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "23:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Chelsea",
+    "AwayTeam": "PSG",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "23:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Manchester City",
+    "AwayTeam": "Real Madrid",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "23:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Mostaganem",
+    "AwayTeam": "Paradou",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Olympique Akbou",
+    "AwayTeam": "Constantine",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Jennings",
+    "AwayTeam": "Old Road",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "23:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Racing Club",
+    "AwayTeam": "Estudiantes Rio Cuarto",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "02:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Instituto",
+    "AwayTeam": "Independiente",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "04:15",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Atletico Atlanta",
+    "AwayTeam": "Deportivo Maipu",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "03:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "San Nicolaas",
+    "AwayTeam": "Estudiantes",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "03:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Sydney FC",
+    "AwayTeam": "Melbourne City",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "11:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Radnik Bijeljina",
+    "AwayTeam": "Laktasi",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "18:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Tafic FC",
+    "AwayTeam": "Orapa United",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Centre Chiefs",
+    "AwayTeam": "Matebele",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Extension Gunners",
+    "AwayTeam": "Black Lions",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Chapecoense-SC",
+    "AwayTeam": "Gremio",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "02:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Capim",
+    "AwayTeam": "Dibrados FC",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "02:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Loud",
+    "AwayTeam": "Dendele",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "03:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Bahia W",
+    "AwayTeam": "Vitoria W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "03:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Flamengo RJ U20 W",
+    "AwayTeam": "Fluminense U20 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Lok. Sofia",
+    "AwayTeam": "Septemvri Sofia",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Cotonsport",
+    "AwayTeam": "Dynamo Douala",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Gazelle",
+    "AwayTeam": "Aigle Royal",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "18:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "As Dgssie",
+    "AwayTeam": "Fehra",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Galactik",
+    "AwayTeam": "Renaissance",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Sovotours",
+    "AwayTeam": "Colombe",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Colo Colo",
+    "AwayTeam": "Huachipato",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "02:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "KoldingQ W",
+    "AwayTeam": "Aarhus W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Petrojet",
+    "AwayTeam": "Pyramids",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Watford",
+    "AwayTeam": "Wrexham",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "AFC Wimbledon",
+    "AwayTeam": "Leyton Orient",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Blackpool",
+    "AwayTeam": "Port Vale",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Bolton",
+    "AwayTeam": "Doncaster",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Bradford City",
+    "AwayTeam": "Mansfield",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Burton",
+    "AwayTeam": "Reading",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Cardiff",
+    "AwayTeam": "Wycombe",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Huddersfield",
+    "AwayTeam": "Lincoln",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Luton",
+    "AwayTeam": "Exeter",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Peterborough",
+    "AwayTeam": "Rotherham",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Plymouth",
+    "AwayTeam": "Stevenage",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Stockport County",
+    "AwayTeam": "Northampton",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Barnsley",
+    "AwayTeam": "Wigan",
+    "HomeScore": "",
+    "AwayScore": "",
+    "Time": "23:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Newport",
+    "AwayTeam": "Bromley",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Accrington",
+    "AwayTeam": "Notts Co",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Bristol Rovers",
+    "AwayTeam": "Shrewsbury",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Cheltenham",
+    "AwayTeam": "Crewe",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Chesterfield",
+    "AwayTeam": "Oldham",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Crawley",
+    "AwayTeam": "Barnet",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Gillingham",
+    "AwayTeam": "Swindon",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Grimsby",
+    "AwayTeam": "Fleetwood",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Salford",
+    "AwayTeam": "Barrow",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Tranmere",
+    "AwayTeam": "Harrogate",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Walsall",
+    "AwayTeam": "Cambridge Utd",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Atl. Madrid U19",
+    "AwayTeam": "Club Brugge U19",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Villarreal U19",
+    "AwayTeam": "PSG U19",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "18:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Austria U17 W",
+    "AwayTeam": "Iceland U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "France U17 W",
+    "AwayTeam": "Serbia U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Poland U17 W",
+    "AwayTeam": "Netherlands U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Wales U17 W",
+    "AwayTeam": "Slovakia U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Stade Briochin",
+    "AwayTeam": "Chateauroux",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Dikaki",
+    "AwayTeam": "Bouenguidi",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Lozo",
+    "AwayTeam": "Bitam",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "17:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Stjarnan",
+    "AwayTeam": "Vestri",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Thor Akureyri",
+    "AwayTeam": "Fylkir",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Alftanes",
+    "AwayTeam": "Kria",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "23:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "KH Hlidarendi",
+    "AwayTeam": "Hviti",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "23:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Rajasthan United",
+    "AwayTeam": "Real Kashmir",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Kahraba",
+    "AwayTeam": "Al Naft",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Najaf",
+    "AwayTeam": "Al Mosul",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Quwa Al Jawiya",
+    "AwayTeam": "Baghdad",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Gharraf",
+    "AwayTeam": "Al Zawraa",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "23:15",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Shorta",
+    "AwayTeam": "Al Talaba",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "23:15",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Palermo",
+    "AwayTeam": "Juve Stabia",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Catanzaro",
+    "AwayTeam": "Modena",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Mantova",
+    "AwayTeam": "Cesena",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Reggiana",
+    "AwayTeam": "Monza",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Spezia",
+    "AwayTeam": "Empoli",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Venezia",
+    "AwayTeam": "Padova",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Arnett Gardens",
+    "AwayTeam": "Racing United",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "03:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Salt",
+    "AwayTeam": "Al Ramtha",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Kaspij Aktau",
+    "AwayTeam": "Okzhetpes",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "15:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Drenica",
+    "AwayTeam": "Malisheva",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "15:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Ferizaj",
+    "AwayTeam": "Prishtina",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "15:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al-Tirsana",
+    "AwayTeam": "Al Shomooa",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "00:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Assabah",
+    "AwayTeam": "Abu Salim",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "00:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Ittihad Gharyan",
+    "AwayTeam": "Al-Majd",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "00:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "US Bougouni",
+    "AwayTeam": "Real Bamako",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Onze Createurs",
+    "AwayTeam": "Korofina",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Bakaridjan",
+    "AwayTeam": "Derby Academie",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Atlas W",
+    "AwayTeam": "Monterrey W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "04:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Club America W",
+    "AwayTeam": "Toluca W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "05:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Club Leon W",
+    "AwayTeam": "Mazatlan FC W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "06:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Yarmanya United",
+    "AwayTeam": "Thitsar Arman",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "12:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Mahar United",
+    "AwayTeam": "Ayeyawady",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "12:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Almere City",
+    "AwayTeam": "Waalwijk",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Den Haag",
+    "AwayTeam": "Jong Utrecht",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Dordrecht",
+    "AwayTeam": "Oss",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Venlo",
+    "AwayTeam": "Jong Ajax",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Mexico U17 W",
+    "AwayTeam": "Jamaica U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:00FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Costa Rica U17 W",
+    "AwayTeam": "Panama U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:06FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "USA U17 W",
+    "AwayTeam": "Bermuda U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Puerto Rico U17 W",
+    "AwayTeam": "Haiti U17 W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:36FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Brann U19",
+    "AwayTeam": "Haugesund U19",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "18:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al-Samail",
+    "AwayTeam": "Dhofar",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Bahla",
+    "AwayTeam": "Al Seeb",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Sohar",
+    "AwayTeam": "Ibri",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Sur Club",
+    "AwayTeam": "Al Nahda",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "UMECIT",
+    "AwayTeam": "Union Cocle",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "04:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Jagiellonia",
+    "AwayTeam": "GKS Katowice",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Arabi",
+    "AwayTeam": "Al-Sadd",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Rayyan",
+    "AwayTeam": "Al Wakra",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Shamal",
+    "AwayTeam": "Al-Duhail",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Krasnodar",
+    "AwayTeam": "CSKA Moscow",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Inverness",
+    "AwayTeam": "Peterhead",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Spartans",
+    "AwayTeam": "Forfar Athletic",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Guediawaye",
+    "AwayTeam": "Generation F.",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Presov",
+    "AwayTeam": "Kosice",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Myjava W",
+    "AwayTeam": "Trnava W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Mamelodi Sundowns",
+    "AwayTeam": "Marumo Gallants",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Gimcheon Sangmu",
+    "AwayTeam": "Gwangju FC",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Costa Adeje Tenerife W",
+    "AwayTeam": "Atl. Madrid W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "St. Gallen",
+    "AwayTeam": "Lugano",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "21:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Fenerbahce",
+    "AwayTeam": "Gaziantep",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Amed SK W",
+    "AwayTeam": "Besiktas W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "12:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Yuksekova W",
+    "AwayTeam": "Fomget GSK W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "12:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Cekmekoy W",
+    "AwayTeam": "Giresun W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Fatih Vatan Spor W",
+    "AwayTeam": "ALG Spor W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Galatasaray W",
+    "AwayTeam": "Unye Kadin W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Trabzonspor W",
+    "AwayTeam": "Fenerbahce W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "NEC FC",
+    "AwayTeam": "Lugazi",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "15:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Kampala City",
+    "AwayTeam": "Onduparaka",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "19:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "FC Chernihiv",
+    "AwayTeam": "Fenix Mariupol",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "13:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Al Wahda",
+    "AwayTeam": "Al Ain",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Ittihad Kalba",
+    "AwayTeam": "Al Sharjah",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "20:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Liverpool M.",
+    "AwayTeam": "Montevideo City",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "02:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "DC Power W",
+    "AwayTeam": "Carolina Ascent W",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "18:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Trefelin",
+    "AwayTeam": "Cambrian United",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Treowen",
+    "AwayTeam": "Baglan Dragons",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:30",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Cwmbran Celtic",
+    "AwayTeam": "Pontypridd",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Brickfield",
+    "AwayTeam": "Rhyl",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "22:45",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Argentina U17",
+    "AwayTeam": "Chile U17",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Blooming (Bol)",
+    "AwayTeam": "Independiente (Bol)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "02:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Luch (Rus)",
+    "AwayTeam": "Kyzyltash (Ukr)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "14:00",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Fiorentina U18 (Ita)",
+    "AwayTeam": "Potey Keahson U18 (Ivo)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Genoa U18 (Ita)",
+    "AwayTeam": "Pistoiese U18 (Ita)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Olympique Thiessois U18 (Sen)",
+    "AwayTeam": "AS Police U18 (Bfa)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "One Touch U18 (Nga)",
+    "AwayTeam": "Athletic Palermo U18 (Ita)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Rijeka U18 (Cro)",
+    "AwayTeam": "Mavlon U18 (Nga)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Sassuolo U18 (Ita)",
+    "AwayTeam": "Westchester U18 (Usa)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Serie D team U18 (Ita)",
+    "AwayTeam": "UYSS New York U18 (Usa)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  },
+  {
+    "HomeTeam": "Spezia U18 (Ita)",
+    "AwayTeam": "Lucchese U18 (Ita)",
+    "HomeScore": "-",
+    "AwayScore": "-",
+    "Time": "16:30FRO",
+    "Status": "Scheduled"
+  }
+]
