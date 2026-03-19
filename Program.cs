@@ -45,7 +45,7 @@ class FlashScoreScraper
         using var playwright = await Playwright.CreateAsync();
         await using var browser = await playwright.Chromium.LaunchAsync(new() 
         { 
-            Headless = false 
+            Headless = true
         });
         
         var page = await browser.NewPageAsync();
