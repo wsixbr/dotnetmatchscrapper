@@ -32,14 +32,6 @@ jobs:
         dotnet tool install --global Microsoft.Playwright.CLI
         playwright install chromium
 
-    - name: Install Chrome
-      run: |
-        # Add Google signing key and repo (requires sudo)
-        curl -fsSL https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo tee /usr/share/keyrings/google-linux-signing-keyring.gpg > /dev/null
-        echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-linux-signing-keyring.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
-
     - name: Build and run scraper
       env:
         TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
