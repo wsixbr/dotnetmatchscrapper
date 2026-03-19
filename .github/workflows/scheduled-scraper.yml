@@ -24,8 +24,13 @@ jobs:
       with:
         dotnet-version: '8.0.x'
 
+    - name: Build (so Playwright is fully installed)
+      run: dotnet build -c Release
+
     - name: Install Playwright browsers
-      run: dotnet tool install --global Microsoft.Playwright.CLI && playwright install chromium
+      run: |
+        dotnet tool install --global Microsoft.Playwright.CLI
+        playwright install chromium
 
     - name: Install Chrome
       run: |
