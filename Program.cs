@@ -1,4 +1,4 @@
-﻿using Microsoft.Playwright;
+using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,17 +35,26 @@ class FlashScoreScraper
     static async Task Main()
     {
         // Return if trial date is reached
-        // var trialEndDate = new DateTime(2026, 03, 10);
-        // if (DateTime.Now > trialEndDate)
-        // {
-        //     Console.WriteLine("Trial period has ended.");
-        //     System.Threading.Thread.Sleep(5000); // Delay for 5 seconds before exiting
-        //     return;
-        // }
+        var trialEndDate = new DateTime(2026, 03, 28);
+        if (DateTime.Now > trialEndDate)
+        {
+            Console.WriteLine("Trial period has ended.");
+            System.Threading.Thread.Sleep(5000); // Delay for 5 seconds before exiting
+            return;
+        }
+        var isPublished = !AppContext.BaseDirectory.Contains("bin/Debug") && 
+                        !AppContext.BaseDirectory.Contains("bin/Release");
+
+        if (isPublished)
+        {
+            var browserPath = Path.Combine(AppContext.BaseDirectory, "ms-playwright");
+            Environment.SetEnvironmentVariable("PLAYWRIGHT_BROWSERS_PATH", browserPath);
+        }
+
         using var playwright = await Playwright.CreateAsync();
         await using var browser = await playwright.Chromium.LaunchAsync(new() 
         { 
-            Headless = true
+            Headless = true 
         });
         
         var page = await browser.NewPageAsync();
@@ -55,7 +64,7 @@ class FlashScoreScraper
         {
             Console.WriteLine("Navigating to FlashScore...");
             
-            await page.GotoAsync("https://www.flashscore.com/football/", new()
+            await page.GotoAsync("https://www.flashscore.com", new()
             {
                 WaitUntil = WaitUntilState.DOMContentLoaded,
                 Timeout = 120000
@@ -71,6 +80,77 @@ class FlashScoreScraper
                 await Task.Delay(3000);
             }
             catch { }
+
+            // Scroll to load all matches via infinite scroll
+            Console.WriteLine("Scrolling to load all matches...");
+            int previousMatchCount = 0;
+            int unchangedCount = 0;
+
+            while (true)
+            {
+                await page.EvaluateAsync("window.scrollTo(0, document.body.scrollHeight)");
+                await Task.Delay(2000);
+
+                int currentMatchCount = await page.EvaluateAsync<int>(
+                    "document.querySelectorAll('div.event__match').length"
+                );
+
+                Console.WriteLine($"Matches loaded so far: {currentMatchCount}");
+
+                if (currentMatchCount == previousMatchCount)
+                {
+                    unchangedCount++;
+                    if (unchangedCount >= 3)
+                    {
+                        Console.WriteLine("No new matches loading, done scrolling.");
+                        break;
+                    }
+                }
+                else
+                {
+                    unchangedCount = 0;
+                    previousMatchCount = currentMatchCount;
+                }
+            }
+
+            // Click all collapsed "display matches" accordion buttons to expose hidden matches.
+            // From the HTML: collapsed leagues have button.wcl-accordion_7Fi80[aria-expanded="false"]
+            // with text like "display matches (N)" and a down-arrow icon.
+            // We loop because expanding one section can reveal more collapsed ones below.
+            Console.WriteLine("Expanding collapsed league sections...");
+            int expandedCount = 0;
+
+            while (true)
+            {
+                var collapsedButtons = await page.QuerySelectorAllAsync(
+                    "button.wcl-accordion_7Fi80[aria-expanded='false']"
+                );
+
+                if (collapsedButtons.Count == 0) break;
+
+                foreach (var btn in collapsedButtons)
+                {
+                    try
+                    {
+                        await btn.ScrollIntoViewIfNeededAsync();
+                        await btn.ClickAsync(new() { Timeout = 3000 });
+                        expandedCount++;
+                        await Task.Delay(300); // Small delay to let DOM update between clicks
+                    }
+                    catch { }
+                }
+
+                // Check if any more collapsed buttons appeared after expanding
+                var remaining = await page.QuerySelectorAllAsync(
+                    "button.wcl-accordion_7Fi80[aria-expanded='false']"
+                );
+                if (remaining.Count == 0) break;
+            }
+
+            Console.WriteLine($"Expanded {expandedCount} collapsed league sections.");
+            await Task.Delay(2000); // Let newly exposed matches render
+
+            Console.WriteLine("All matches loaded, scraping...");
             
             var matchesJson = await page.EvaluateAsync<string>(@"
                 () => {
@@ -93,11 +173,42 @@ class FlashScoreScraper
                             const homeScore = homeScoreEl ? homeScoreEl.textContent.trim() : '';
                             const awayScore = awayScoreEl ? awayScoreEl.textContent.trim() : '';
                             
+                            // Fixed status detection: the old code checked for 'event__match--finished'
+                            // which does not exist in the DOM. Status lives in .event__stage--block
+                            // with text like 'Finished', 'After Pen.', a live minute number, etc.
+                            // The event__match--live class is kept as a fallback for live matches.
                             let matchStatus = 'Scheduled';
-                            if (el.classList.contains('event__match--live')) {
+                            const stageEl = el.querySelector('.event__stage--block');
+                            if (stageEl) {
+                                const stageText = stageEl.textContent.trim();
+                                const stageTextLower = stageText.toLowerCase();
+                                if (
+                                    stageTextLower === 'finished' ||
+                                    stageTextLower === 'after pen.' ||
+                                    stageTextLower === 'after et.'
+                                ) {
+                                    matchStatus = 'Finished';
+                                } else if (
+                                    !isNaN(parseInt(stageText)) ||
+                                    stageTextLower.includes(""'"") ||
+                                    stageTextLower.includes('ht') ||
+                                    stageTextLower.includes('et')
+                                ) {
+                                    // Numeric minute or HT/ET indicator means the match is live
+                                    matchStatus = 'Live';
+                                } else if (stageTextLower === 'postponed') {
+                                    matchStatus = 'Postponed';
+                                } else if (stageTextLower === 'cancelled') {
+                                    matchStatus = 'Cancelled';
+                                } else if (stageTextLower === 'abandoned') {
+                                    matchStatus = 'Abandoned';
+                                } else if (stageText !== '') {
+                                    // Catch-all for any other stage text (e.g. 'Awarded')
+                                    matchStatus = stageText;
+                                }
+                            } else if (el.classList.contains('event__match--live')) {
+                                // Fallback: live class still present on the container
                                 matchStatus = 'Live';
-                            } else if (el.classList.contains('event__match--finished')) {
-                                matchStatus = 'Finished';
                             }
                             
                             if (homeTeam && awayTeam) {
@@ -207,96 +318,102 @@ class FlashScoreScraper
                 Console.WriteLine("✗ Failed to fetch Odibets data");
             }
             // Fetch Bangbet matches and save
-            Console.WriteLine("\nFetching Bangbet data...");
-            var bangbetMatches = await GetBangbetMatches();
-            if (bangbetMatches != null && bangbetMatches.Any())
-            {
-                Console.WriteLine($"\n✓ Retrieved {bangbetMatches.Count} Bangbet matches\n");
+            // Console.WriteLine("\nFetching Bangbet data...");
+            // var bangbetMatches = await GetBangbetMatches();
+            // if (bangbetMatches != null && bangbetMatches.Any())
+            // {
+            //     Console.WriteLine($"\n✓ Retrieved {bangbetMatches.Count} Bangbet matches\n");
 
-                // Print Bangbet table
-                Console.WriteLine("Time     | Home Team                  | Away Team                  | Status");
-                Console.WriteLine("---------|----------------------------|----------------------------|------------------");
-                foreach (var match in bangbetMatches)
-                {
-                    var time = match.Time.PadRight(8);
-                    var homeTeam = match.HomeTeam.PadRight(26).Substring(0, 26);
-                    var awayTeam = match.AwayTeam.PadRight(26).Substring(0, 26);
-                    var status = match.Status;
-                    Console.WriteLine($"{time} | {homeTeam} | {awayTeam} | {status}");
-                }
+            //     // Print Bangbet table
+            //     Console.WriteLine("Time     | Home Team                  | Away Team                  | Status");
+            //     Console.WriteLine("---------|----------------------------|----------------------------|------------------");
+            //     foreach (var match in bangbetMatches)
+            //     {
+            //         var time = match.Time.PadRight(8);
+            //         var homeTeam = match.HomeTeam.PadRight(26).Substring(0, 26);
+            //         var awayTeam = match.AwayTeam.PadRight(26).Substring(0, 26);
+            //         var status = match.Status;
+            //         Console.WriteLine($"{time} | {homeTeam} | {awayTeam} | {status}");
+            //     }
 
-                // Save Bangbet JSON
-                var bangJson = JsonSerializer.Serialize(bangbetMatches, new JsonSerializerOptions { WriteIndented = true });
-                await System.IO.File.WriteAllTextAsync("bangbet_matches.json", bangJson);
-                Console.WriteLine("✓ Saved Bangbet matches to: bangbet_matches.json");
-            }
-            else
-            {
-                Console.WriteLine("✗ Failed to fetch Bangbet data");
-            }
+            //     // Save Bangbet JSON
+            //     var bangJson = JsonSerializer.Serialize(bangbetMatches, new JsonSerializerOptions { WriteIndented = true });
+            //     await System.IO.File.WriteAllTextAsync("bangbet_matches.json", bangJson);
+            //     Console.WriteLine("✓ Saved Bangbet matches to: bangbet_matches.json");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("✗ Failed to fetch Bangbet data");
+            // }
 
             // Fetch Betika matches and save
-            Console.WriteLine("\nFetching Betika data...");
-            var betikaMatches = await GetBetikaMatches();
-            if (betikaMatches != null && betikaMatches.Any())
-            {
-                Console.WriteLine($"\n✓ Retrieved {betikaMatches.Count} Betika matches\n");
+            // Console.WriteLine("\nFetching Betika data...");
+            // var betikaMatches = await GetBetikaMatches();
+            // if (betikaMatches != null && betikaMatches.Any())
+            // {
+            //     Console.WriteLine($"\n✓ Retrieved {betikaMatches.Count} Betika matches\n");
 
-                // Print Betika table
-                Console.WriteLine("Time     | Home Team                  | Away Team                  | Status");
-                Console.WriteLine("---------|----------------------------|----------------------------|------------------");
-                foreach (var match in betikaMatches)
-                {
-                    var time = match.Time.PadRight(8);
-                    var homeTeam = match.HomeTeam.PadRight(26).Substring(0, 26);
-                    var awayTeam = match.AwayTeam.PadRight(26).Substring(0, 26);
-                    var status = match.Status;
-                    Console.WriteLine($"{time} | {homeTeam} | {awayTeam} | {status}");
-                }
+            //     // Print Betika table
+            //     Console.WriteLine("Time     | Home Team                  | Away Team                  | Status");
+            //     Console.WriteLine("---------|----------------------------|----------------------------|------------------");
+            //     foreach (var match in betikaMatches)
+            //     {
+            //         var time = match.Time.PadRight(8);
+            //         var homeTeam = match.HomeTeam.PadRight(26).Substring(0, 26);
+            //         var awayTeam = match.AwayTeam.PadRight(26).Substring(0, 26);
+            //         var status = match.Status;
+            //         Console.WriteLine($"{time} | {homeTeam} | {awayTeam} | {status}");
+            //     }
 
-                // Save Betika JSON
-                var betJson = JsonSerializer.Serialize(betikaMatches, new JsonSerializerOptions { WriteIndented = true });
-                await System.IO.File.WriteAllTextAsync("betika_matches.json", betJson);
-                Console.WriteLine("✓ Saved Betika matches to: betika_matches.json");
-            }
-            else
-            {
-                Console.WriteLine("✗ Failed to fetch Betika data");
-            }
+            //     // Save Betika JSON
+            //     var betJson = JsonSerializer.Serialize(betikaMatches, new JsonSerializerOptions { WriteIndented = true });
+            //     await System.IO.File.WriteAllTextAsync("betika_matches.json", betJson);
+            //     Console.WriteLine("✓ Saved Betika matches to: betika_matches.json");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("✗ Failed to fetch Betika data");
+            // }
 
             // Fetch SportPesa matches and save
-            Console.WriteLine("\nFetching SportPesa data...");
-            var sportpesaMatches = await GetSportPesaMatches();
-            if (sportpesaMatches != null && sportpesaMatches.Any())
-            {
-                Console.WriteLine($"\n✓ Retrieved {sportpesaMatches.Count} SportPesa matches\n");
+            // Console.WriteLine("\nFetching SportPesa data...");
+            // var sportpesaMatches = await GetSportPesaMatches();
+            // if (sportpesaMatches != null && sportpesaMatches.Any())
+            // {
+            //     Console.WriteLine($"\n✓ Retrieved {sportpesaMatches.Count} SportPesa matches\n");
 
-                // Print SportPesa table
-                Console.WriteLine("Time     | Home Team                  | Away Team                  | Status");
-                Console.WriteLine("---------|----------------------------|----------------------------|------------------");
-                foreach (var match in sportpesaMatches)
-                {
-                    var time = match.Time.PadRight(8);
-                    var homeTeam = match.HomeTeam.PadRight(26).Substring(0, 26);
-                    var awayTeam = match.AwayTeam.PadRight(26).Substring(0, 26);
-                    var status = match.Status;
-                    Console.WriteLine($"{time} | {homeTeam} | {awayTeam} | {status}");
-                }
+            //     // Print SportPesa table
+            //     Console.WriteLine("Time     | Home Team                  | Away Team                  | Status");
+            //     Console.WriteLine("---------|----------------------------|----------------------------|------------------");
+            //     foreach (var match in sportpesaMatches)
+            //     {
+            //         var time = match.Time.PadRight(8);
+            //         var homeTeam = match.HomeTeam.PadRight(26).Substring(0, 26);
+            //         var awayTeam = match.AwayTeam.PadRight(26).Substring(0, 26);
+            //         var status = match.Status;
+            //         Console.WriteLine($"{time} | {homeTeam} | {awayTeam} | {status}");
+            //     }
 
-                // Save SportPesa JSON
-                var sportJson = JsonSerializer.Serialize(sportpesaMatches, new JsonSerializerOptions { WriteIndented = true });
-                await System.IO.File.WriteAllTextAsync("sportpesa_matches.json", sportJson);
-                Console.WriteLine("✓ Saved SportPesa matches to: sportpesa_matches.json");
-            }
-            else
-            {
-                Console.WriteLine("✗ Failed to fetch SportPesa data");
-            }
+            //     // Save SportPesa JSON
+            //     var sportJson = JsonSerializer.Serialize(sportpesaMatches, new JsonSerializerOptions { WriteIndented = true });
+            //     await System.IO.File.WriteAllTextAsync("sportpesa_matches.json", sportJson);
+            //     Console.WriteLine("✓ Saved SportPesa matches to: sportpesa_matches.json");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("✗ Failed to fetch SportPesa data");
+            // }
 
             // Compare across available sources (flashscore, odibets, bangbet, betika, sportpesa)
             if (matchesWithTime.Any())
             {
-                var sources = new List<string> { "flashscore_matches.json", "odibets_matches.json", "bangbet_matches.json", "betika_matches.json", "sportpesa_matches.json" };
+                var sources = new List<string> {
+                    "flashscore_matches.json",
+                    "odibets_matches.json",
+                    // "bangbet_matches.json",
+                    // "betika_matches.json",
+                    // "sportpesa_matches.json"
+                };
                 Console.WriteLine("Comparing matches across sources...");
                 await CompareAcrossSources(sources);
                 Console.WriteLine("Matches compared.");
@@ -376,7 +493,7 @@ class FlashScoreScraper
                 {
                     competitionIds.Add(cmp.competition_name);
                     var matchesByCompetitionId = await GetOdiBettsMatchesByCompetitionId(cmp.competition_id);
-                    matches.AddRange(matchesByCompetitionId);
+                    matches.AddRange(matchesByCompetitionId ?? new List<OdibetsMatchData>());
                     Console.WriteLine($"Matches for competition {cmp.competition_id}: {matchesByCompetitionId?.Count}");
                 }
                 Console.WriteLine($"Total matches: {matches.Count}");
@@ -724,9 +841,9 @@ class FlashScoreScraper
         {
             { "flashscore_matches.json", "FlashScore" },
             { "odibets_matches.json", "Odibets" },
-            { "bangbet_matches.json", "Bangbet" },
-            { "betika_matches.json", "Betika" },
-            { "sportpesa_matches.json", "SportPesa" }
+            // { "bangbet_matches.json", "Bangbet" },
+            // { "betika_matches.json", "Betika" },
+            // { "sportpesa_matches.json", "SportPesa" }
         };
 
         foreach (var file in sourceFiles)
@@ -820,7 +937,7 @@ class FlashScoreScraper
             Console.WriteLine("\n✓ Saved to varying_matches.csv");
             
             // Send WhatsApp alert
-            await SendWhatsAppAlert(whatsappMessage.ToString());
+            // await SendWhatsAppAlert(whatsappMessage.ToString());
         }
         else
         {
@@ -948,6 +1065,30 @@ public class OdibetsMatchData
     public string Status { get; set; } = "";
 }
 
+// Flexible JSON converter that safely handles fields the API returns as either
+// a number (3) or a quoted string ("3") depending on the competition/endpoint.
+public class FlexibleIntConverter : System.Text.Json.Serialization.JsonConverter<int>
+{
+    public override int Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+    {
+        if (reader.TokenType == JsonTokenType.Number)
+            return reader.GetInt32();
+
+        if (reader.TokenType == JsonTokenType.String)
+        {
+            var str = reader.GetString();
+            if (int.TryParse(str, out var result))
+                return result;
+        }
+
+        // Any other token type (null, bool, etc.) — return safe default
+        return 0;
+    }
+
+    public override void Write(Utf8JsonWriter writer, int value, JsonSerializerOptions options)
+        => writer.WriteNumberValue(value);
+}
+
 // Odibets API Response Classes
 public class SportsbookResponse
 {
@@ -1035,7 +1176,8 @@ public class Outcome
 
 public class SportsbookMeta
 {
-    public int producer { get; set; } = 0;
+    [System.Text.Json.Serialization.JsonConverter(typeof(FlexibleIntConverter))]
+    public int producer { get; set; } = 0; // FlexibleIntConverter handles both number and quoted string from API
     public string day { get; set; } = string.Empty;
     public string sport_id { get; set; } = string.Empty;
     public string total { get; set; } = string.Empty;
